@@ -1,0 +1,15 @@
+Source: golang-logutils
+Section: devel
+Priority: extra
+Maintainer: Kouhei Maeda <mkouhei@palmtb.net>
+Build-Depends: debhelper (>= 9.0.0), dh-golang, golang-go
+Standards-Version: 3.9.5
+Homepage: https://github.com/hashicorp/logutils
+
+Package: golang-logutils-dev
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, golang-go
+Description: augments the standard library "log" package
+ logutils is a Go package that augments the standard library "log" package
+ to make logging a bit more modern, without fragmenting the Go ecosystem
+ with new logging packages.
