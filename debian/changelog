@@ -1,4 +1,4 @@
-golang-logutils (0.0~git20131204+8e0820f-1) unstable; urgency=low
+golang-hashicorp-logutils (0.0~git20131204+8e0820f-1) unstable; urgency=low
 
   * Initial release (Closes: #nnnn)
 
